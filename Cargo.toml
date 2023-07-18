@@ -13,3 +13,4 @@ ftdi-embedded-hal = { version = "0.16.0", features = [
 ] }
 eh0 = { package = "embedded-hal", version = "0.2.7", features = ["unproven"] }
 libftd2xx = { version = "0.32.2", features = ["static"] }
+ftdi = "0.1.3"

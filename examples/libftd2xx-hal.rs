@@ -32,7 +32,7 @@ fn main() {
     let mut esp32_6_pin3 = hal6.ad3().unwrap();
 
     println!("Starting blinky example");
-    for n in 0..NUM_BLINK {
+    for _ in 0..NUM_BLINK {
         esp32_0_pin3.set_high().expect("failed to set GPIO");
         sleep(SLEEP_DURATION);
         esp32_0_pin3.set_low().expect("failed to set GPIO");
